@@ -8,7 +8,6 @@ npm install
 ## Running e2e tests
 ```
 yarn start
-yarn launch-selenium
 yarn e2e              // in a separate tab
 yarn nightwatch       // in a separate tab
 ```
