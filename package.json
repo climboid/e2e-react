@@ -2,24 +2,24 @@
   "name": "e2e-react",
   "version": "0.1.0",
   "private": true,
-  "dependencies": {
-    "chromedriver": "^2.30.1",
-    "react": "^15.6.1",
-    "react-dom": "^15.6.1"
-  },
-  "devDependencies": {
-    "geckodriver": "^1.8.0",
-    "nightwatch": "^0.9.16",
-    "react-scripts": "1.0.10",
-    "selenium-server-standalone-jar": "^3.4.0"
-  },
-  "scripts": {
+    "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "launch-selenium": "java -jar ./node_modules/selenium-server-standalone-jar/jar/selenium-server-standalone-3.4.0.jar",
+    "launch-selenium": "java -jar ./node_modules/selenium-server-standalone-jar/jar/selenium-server-standalone-**.jar",
     "e2e": "npm run launch-selenium",
     "nightwatch": "node ./node_modules/.bin/nightwatch"
+  },
+  "dependencies": {
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1"
+  },
+  "devDependencies": {
+    "chromedriver": "^2.30.1",
+    "geckodriver": "^1.8.0",
+    "nightwatch": "^0.9.16",
+    "react-scripts": "1.0.10",
+    "selenium-server-standalone-jar": "^3.4.0"
   }
 }
